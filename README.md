@@ -22,11 +22,11 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone https://github.com/Mithun1508/Spring-Cloud-Sleuth-Zipkin-Server-Microservice-Log-Tracing-u.git
 
-    Navigate to the project directory:
+   a) Navigate to the project directory:
    
    cd Spring-Cloud-Sleuth-Zipkin-Microservice-Log-Tracing-Server
 
-    Build and run the application:
+   b) Build and run the application:
    
    ./mvnw spring-boot:run
 
