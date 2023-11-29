@@ -9,9 +9,30 @@ Spring Cloud Sleuth Zipkin Microservice Log Tracing Server is a distributed trac
 
 ## Features
 
-- **Distributed Tracing:** Monitor and trace requests as they travel through different microservices.
-- **Performance Analysis:** Identify bottlenecks and latency problems in your microservices architecture.
-- **Dependency Visualization:** Understand the interactions and dependencies between various microservices.
+1. Distributed Tracing
+End-to-End Monitoring: Trace requests from the entry point to different microservices, providing a holistic view of request flow.
+
+Unique Trace IDs: Assign unique trace IDs to requests, making it easier to follow their journey through the system.
+
+Span Information: Gather detailed information about each span in the request lifecycle.
+
+2. Performance Analysis
+   
+Latency Detection: Identify and troubleshoot latency problems in the system.
+
+Performance Bottleneck Identification: Pinpoint areas of the system causing performance bottlenecks.
+
+3. Dependency Visualization
+4. 
+Microservices Interaction: Visualize dependencies between various microservices.
+
+Service Interaction Flow: Understand how different services interact with each other.
+## Prerequisites
+Before you begin, ensure you have the following installed:
+
+Java Development Kit (JDK)
+
+Maven (for building the project)
 
 ## Getting Started
 
@@ -19,7 +40,6 @@ Follow these steps to set up and run the project locally:
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/Mithun1508/Spring-Cloud-Sleuth-Zipkin-Server-Microservice-Log-Tracing-u.git
 
    a) Navigate to the project directory:
